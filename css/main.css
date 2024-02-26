@@ -13,7 +13,7 @@
 
 @import 'themes/theme-base.css';
 
-@import '_animations/animation.css';
+@import 'animations/animation.css';
 
-@import '_responsive/global.css';
-@import '_responsive/specific.css';
+@import 'responsive/global.css';
+@import 'responsive/specific.css';
