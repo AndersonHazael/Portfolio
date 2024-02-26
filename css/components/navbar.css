@@ -1,0 +1,89 @@
+                    /* GERAL */
+/*-----------------------------------------------*/
+.Git{
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.Git:hover{
+    color: white;
+    letter-spacing: 7px;
+    opacity:75%;
+}
+
+.Menu{
+    display: flex;
+}
+
+                    /* DESKTOP */
+/*------------------------------------------------*/
+
+.Navbar-Desktop{  
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Desktop li{
+    letter-spacing: 4px;
+    margin-left: 45px;
+}
+
+                    /* MOBILE */
+/*------------------------------------------------*/
+
+.Navbar-Mobile{
+    width: 100%; 
+    height: 100%;
+    display: none;
+    justify-content:space-between;
+    align-items: center;
+}
+.Navbar-Mobile span{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Navbar-Mobile span img{
+    width: 30px;
+    height: 30px;
+    filter:invert(100%);
+    cursor:pointer;
+}
+.Mobile{
+    width: 65vw;
+    height: calc(100vh - 64px);
+    position: fixed;
+    top: 64px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--primary-color);
+    box-shadow: 0px 4px 4px #140c11;
+}
+.Mobile li{
+    width:100%;
+    height:25%;
+    font-size: medium;
+    display: flex;
+    border-bottom:2px solid #2b1a25;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.Mobile li:hover{
+    background-color: #2b1a25;
+}
+.Mobile li a{
+    transition: 0.5s !important;
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Mobile li:hover a{
+    color:var(--link-hover);
+}

@@ -1,0 +1,48 @@
+                        /* RESET STYLE*/
+/*---------------------------------------------------------------*/
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+    font-style: normal;
+    overflow-x: hidden;   
+}
+
+.display-none{
+    display:none;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+
+                        /* TYPOGRAPHY STYLE*/
+/*---------------------------------------------------------------*/
+body{
+    font-family: 'Domine', serif;
+    color: var(--color);
+    font-size: 16px;
+}
+
+h1, h2, h3{
+    font-family: 'Domine', serif;
+    color: var(--color);
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    transition:0.5s;
+    color: var(--link-color);
+}
+
+a:hover{
+    color: var(--link-hover);
+}
+
+header{
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  
+}
+

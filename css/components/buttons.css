@@ -1,0 +1,22 @@
+
+
+               /* BUTTONS STYLE */
+/*-----------------------------------------------*/
+.btn{
+    margin-top: 30px;
+    color:var(--btn-hover);
+    background-color: var(--btn-bg);
+    border:none;
+    border-radius: 30px;
+    width:200px;
+    height:50px;
+    font-size: 26px;
+    cursor:pointer;
+    transition: 0.4s;
+}
+.btn:hover{
+    background-color:var(--btn-hover);
+    color: var(--btn-bg); 
+    /* letter-spacing: 4px; */
+    transform:scale(1.1);
+}

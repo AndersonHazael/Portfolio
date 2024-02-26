@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- MY CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- MY JS -->
+    <script type="module" src="js/main.js"></script>
+
+    <!-- FONTs -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- LIB SCROLL -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <title>Portfólio | Anderson</title>
+</head>
+<body>
+<!--HOWERVER OF HEADER -->    
+<header>
+    <!--HOWERVER OF DESKTOP NAVBAR -->
+    <nav class="Navbar-Desktop">
+        <a href="https://github.com/AndersonHazael/portfolio.git" class="Git">GitHub</a>
+        <ul class="Menu Desktop">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">Sobre</a></li>
+            <li><a href="#Projects">Projetos</a></li>
+            <li><a href="#Skills">Habilidades</a></li>
+        </ul>       
+    </nav> 
+
+    <nav class="Navbar-Mobile">
+        <span><a href="https://github.com/AndersonHazael/portfolio.git" class="Git">GitHub</a></span>
+        <span>
+            <img id="btnMenu"> 
+            <ul id="menu" class="Menu Mobile">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">Sobre</a></li>
+            <li><a href="#Projects">Projetos</a></li>
+            <li><a href="#Skills">Habilidades</a></li>
+            </ul>       
+            </span>
+        </nav>
+</header> 
+<main>
+    <!-- CONTEUDO PRINCIPAL-->
+    <section id="Home" class="home">
+    <!-- HOME (INICIO/APRESENTAÇÃO)-->  
+        <div class="container">
+            <span class="container-left">
+                <span class="element-child-left">
+                    <h2>Olá, eu sou</h2>
+                    <h1>Anderson Ashael<b>.</b><b class="insert">|</b>
+                    <h2>Desenvolvedor Front-End</h2>
+                    <button class="btn" id="btnLinkedin">LinkedIn</button>
+                </span>    
+            </span>
+            <!-- foto de exemplo -->
+            <span class="container-right">
+                <span class="element-child-right">
+                    <img src="img/photos/photo_perfil_.png">
+                </span>
+            </span>
+        </div>
+    </section>
+        <!--SOBRE (EXPERIÊNCIAS/QUEM SOU EU)-->
+        <section id="About">
+            <div class="container">
+                <div class="box-about">
+
+                    <div class="box-right">
+                        <span class="child-box-right">
+                        <h3>Sobre mim</h3>
+                        <ul class="nav-list">
+                            <li><a class="btnAbout">Apresentação</a></li>
+                            <li><a class="btnAbout">Experiências</a></li>
+                        </ul>
+                    </span>
+                    </div>
+                    
+                    <div class="box-left">
+                        <span class="child-box-left">
+                            <h2 id="title">Apresentação</h2>
+                            <p id="text">Olá, meu nome é Anderson Ashael e eu sou um desenvolvedor front-end júnior. Minha apredizagem com desenvolvimento web ocorreu quando eu ainda era criança, foi quando tive meu primeiro contato com as linguagens de marcação HTML e CSS nas quais desenvolvi meus primeiros projetos, que até então, eram nada além de um hobbie! O desejo em atuar como profissional na área de programação só surgiu bem mais tarde, quando eu já estava no ensino médio.</p>
+                    </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- PROJETOS (PROJETOS DESENVOLVIDOS)-->
+        <section id="Projects">
+            <div class="container">
+                <div data-aos="zoom-in"  data-aos-duration="1000" class="container-child">
+                    <span class="element">
+                    <h1>Projetos</h1>
+                    </span>
+                    <span class="inline">
+                        <span>
+                        <div class="block"><h3>Em Breve</h3></div>
+                        <div class="block"><h3>Em Breve</h3></div>
+                        </span>
+                        <span>
+                        <div class="block"><h3>Em Breve</h3></div>
+                        <div class="block"><h3>Em Breve</h3></div>                
+                        </span>    
+                    </span>
+                </div>    
+            </div>        
+        </section>
+
+
+        <section id="Skills">
+           <div class="container">
+                <div class="container-child">
+                    <h1 class="display-none">Habilidades</h1>
+                      
+                            <span class="box-skills">
+                                <img class="btnImg" id="btnHtml" src="img/photos/html.png" >
+                                <img class="btnImg" id="btnCss" src="img/photos/css.png">
+                                <img class="btnImg" id="btnJavascript" src="img/photos/javascript.png">
+                            </span>
+
+                <div class="box-progress">
+                    <h2 id="skill">SELECIONE A LINGUAGUEM</h2>
+                    <h3 id="level" class="hidden">Intermediário</h2>
+                    <div class="bar"><p id="progress"></p></div> 
+                </div>
+            </div>
+        </div>
+    </div>
+        </section>
+    </main>
+
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

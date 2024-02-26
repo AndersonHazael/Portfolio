@@ -1,0 +1,14 @@
+:root{
+    --color:white;
+
+    --primary-color: #37212D;
+    --secundary-color:#3b2632;
+    --third-color:  #442c3a;
+    --fourth-color: #4b3040; 
+
+    --btn-bg:#613982;
+    --btn-hover: aliceblue;
+
+    --link-color:white;
+    --link-hover: #ffe484;
+}

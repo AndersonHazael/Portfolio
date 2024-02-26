@@ -1,0 +1,37 @@
+
+                   /* LEFT */
+/*-----------------------------------------------*/
+.element-child-left{
+    color:white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.element-child-left h1{
+    font-size: 2rem;
+    margin-top: -20px;
+}
+.element-child-left .insert{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:55pt;
+}
+
+
+                  /* RIGHT */
+/*-----------------------------------------------*/
+
+.element-child-right{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.element-child-right img{
+    width:330px;
+    height:380px;
+    border-radius: 150px;
+}
+
+
