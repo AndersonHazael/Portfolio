@@ -1,0 +1,31 @@
+
+
+              /* INSERT, SKILL ANIMATION */
+/*-----------------------------------------------*/
+@keyframes fluctuation_animation {
+    0% {color:white;}
+    50% {color: transparent;}
+    100% {color:white;}
+}
+
+.insert, 
+#skill{
+    animation-name: fluctuation_animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+
+              /* PHOTO ANIMATION */
+/*-----------------------------------------------*/
+@keyframes imagem{
+    0% {transform: translateX(30%);opacity: 0%;}
+    10% {opacity: 0%}
+    100% {transform: translateY(0); opacity: 100%;}
+}
+
+.element-child-right img{
+    animation-name: imagem;
+    animation-duration: 4s;  
+}
