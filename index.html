@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="manifest" href="manifest.json"/>
     <!-- MY CSS -->
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet"/>
 
     <!-- MY JS -->
     <script type="module" src="js/main.js"></script>
@@ -19,6 +20,11 @@
     <!-- LIB SCROLL -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <title>Portfólio | Anderson</title>
+    <script>
+        if (typeof navigator.serviceWorker !== 'undefined'){
+	        navigator.serviceWorker.register('pwabuilder-sw.js')
+        }
+    </script>
 </head>
 <body>
 <!--HOWERVER OF HEADER -->    
