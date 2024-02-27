@@ -1,0 +1,12 @@
+{
+    "background_color": "#37212d",
+    "dir": "ltr",
+    "display": "standalone",
+    "name": "HazDev",
+    "orientation": "any",
+    "scope": "/",
+    "short_name": "HazDev",
+    "start_url": "/",
+    "theme_color": "#37212d",
+    "lang": "pt"
+  }
